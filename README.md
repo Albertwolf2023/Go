@@ -999,13 +999,15 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 #####  Package xor is an encryption algorithm that operates the exclusive disjunction(XOR) ref: https://en.wikipedia.org/wiki/XOR_cipher
 
----
+----
 ##### Functions:
 
 1. [`Decrypt`](./cipher/xor/xor.go#L19):  Decrypt decrypts with Xor encryption
 2. [`Encrypt`](./cipher/xor/xor.go#L10):  Encrypt encrypts with Xor encryption after converting each character to byte The returned value might not be readable because there is no guarantee which is within the ASCII range If using other type such as string, []int, or some other types, add the statements for converting the type to []byte.
 3. [`FuzzXOR`](./cipher/xor/xor_test.go#L108): No description provided.
 
----
+----
 </details>
+
+
 <!--- GODOCMD END --->
